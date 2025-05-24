@@ -1,0 +1,747 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "powder_power"
+	group: ""
+	icon: {
+		id: "powder_power:motar_pestle"
+	}
+	id: "15AB08505165BF28"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"74BF4BAF8EBDEDEA"
+				"4F114D7856CE6FE3"
+				"546410869DD2EA05"
+				"3FD7CC98703018B1"
+				"033A920236D86E83"
+			]
+			id: "4D2B419D0946089C"
+			rewards: [
+				{
+					count: 2
+					id: "63A33E7A063E11E0"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:protection": 4
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "255477BEDA8D6787"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:mending": 1
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [
+				{
+					id: "6B020498A1BE3877"
+					item: { count: 1, id: "powder_power:armor_quadrilium_helmet" }
+					type: "item"
+				}
+				{
+					id: "70F6871A76269635"
+					item: { count: 1, id: "powder_power:armor_quadrilium_chestplate" }
+					type: "item"
+				}
+				{
+					id: "25D37EC678F31B5B"
+					item: { count: 1, id: "powder_power:armor_quadrilium_leggings" }
+					type: "item"
+				}
+				{
+					id: "7E63D68525838E2B"
+					item: { count: 1, id: "powder_power:armor_quadrilium_boots" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"2B1A7B2C629CCD11"
+				"1C96DD7EE2D35B46"
+				"773875786F917064"
+				"48433F2F012472B0"
+				"2CA09EDE9BB020AC"
+			]
+			id: "14A6727FC3F98588"
+			rewards: [{
+				count: 4
+				id: "16E2EC1EA1032E98"
+				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"minecraft:mending": 1
+							}
+						}
+					}
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [
+				{
+					id: "7C8D6692BFD2E059"
+					item: { count: 1, id: "powder_power:armor_gemium_helmet" }
+					type: "item"
+				}
+				{
+					id: "1538259ECC852F7C"
+					item: { count: 1, id: "powder_power:armor_gemium_chestplate" }
+					type: "item"
+				}
+				{
+					id: "3D156E7847A0ECB2"
+					item: { count: 1, id: "powder_power:armor_gemium_leggings" }
+					type: "item"
+				}
+				{
+					id: "1A69E81A7EED617F"
+					item: { count: 1, id: "powder_power:armor_gemium_boots" }
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			id: "48433F2F012472B0"
+			rewards: [{
+				id: "5537C82187610DBA"
+				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"minecraft:looting": 3
+							}
+						}
+					}
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "743CCDBF21D9C915"
+				item: { count: 1, id: "powder_power:sword_gemium" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			id: "2CA09EDE9BB020AC"
+			rewards: [{
+				id: "696A743EE46124CC"
+				item: {
+					count: 1
+					id: "powder_power:paxel_gemium"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "595F4E856578CBDF"
+					item: { count: 1, id: "powder_power:pickaxe_gemium" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "11A46E01D73AAC6A"
+					item: { count: 1, id: "powder_power:axe_gemium" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3D8B06E5922DCD37"
+					item: { count: 1, id: "powder_power:shovel_gemium" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "2B1A7B2C629CCD11"
+			rewards: [{
+				id: "46BFCB115BF93041"
+				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"minecraft:fortune": 3
+							}
+						}
+					}
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "527268027D9FED67"
+				item: { count: 1, id: "powder_power:hammer_gemium" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			id: "1C96DD7EE2D35B46"
+			rewards: [
+				{
+					count: 8
+					id: "5C87F49C1EE2B9CD"
+					item: {
+						count: 1
+						id: "create:framed_glass"
+					}
+					type: "item"
+				}
+				{
+					id: "79009D21A8AE5C3E"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:efficiency": 5
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5648C2E7B450A111"
+				item: { count: 1, id: "powder_power:excavator_gemium" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			id: "773875786F917064"
+			rewards: [
+				{
+					id: "1C0576B46BE39881"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:flame": 1
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					id: "66731761F7BD83D5"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:mending": 1
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "14C8BEF44A3D7D9F"
+				item: { count: 1, id: "powder_power:bow_gemium" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			id: "74BF4BAF8EBDEDEA"
+			rewards: [
+				{
+					id: "5D7257476D649C7B"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:sweeping_edge": 3
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					id: "45A6EC9D7426C8E5"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:sharpness": 5
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "415421449CB6D2F2"
+				item: { count: 1, id: "powder_power:sword_quadrilium" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			id: "4F114D7856CE6FE3"
+			rewards: [{
+				id: "69ACA7BCF4C77FB4"
+				item: {
+					components: {
+						"minecraft:enchantments": {
+							levels: {
+								"minecraft:efficiency": 5
+								"minecraft:fortune": 3
+								"minecraft:mending": 1
+							}
+						}
+						"minecraft:repair_cost": 7
+					}
+					count: 1
+					id: "powder_power:paxel_quadrilium"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "3D47B6DB8AC6B2BB"
+					item: { count: 1, id: "powder_power:pickaxe_quadrilium" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "22B2A856389EE15E"
+					item: { count: 1, id: "powder_power:axe_quadrilium" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "43A3CBC0E6C101DF"
+					item: { count: 1, id: "powder_power:shovel_quadrilium" }
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			id: "546410869DD2EA05"
+			rewards: [{
+				id: "100999E157441C93"
+				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"minecraft:fortune": 3
+							}
+						}
+					}
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B66FBDA00A9509B"
+				item: { count: 1, id: "powder_power:hammer_quadrilium" }
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			id: "3FD7CC98703018B1"
+			rewards: [{
+				id: "01DABF0B0DBC88AA"
+				item: {
+					components: {
+						"minecraft:stored_enchantments": {
+							levels: {
+								"minecraft:efficiency": 3
+							}
+						}
+					}
+					count: 1
+					id: "minecraft:enchanted_book"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "583D4C726D7A7393"
+				item: { count: 1, id: "powder_power:excavator_quadrilium" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.5d
+		}
+		{
+			id: "033A920236D86E83"
+			rewards: [
+				{
+					id: "339DA56C74F0C982"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:power": 5
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+				{
+					id: "3820C2A3F726135E"
+					item: {
+						components: {
+							"minecraft:stored_enchantments": {
+								levels: {
+									"minecraft:infinity": 1
+								}
+							}
+						}
+						count: 1
+						id: "minecraft:enchanted_book"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0583DE18294A25B6"
+				item: { count: 1, id: "powder_power:bow_quadrilium" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"4D2B419D0946089C"
+				"14A6727FC3F98588"
+			]
+			dependency_requirement: "one_completed"
+			id: "00B8AD2DF27E33A5"
+			min_required_dependencies: 1
+			rewards: [{
+				id: "7A664823B6DEF2D4"
+				item: {
+					count: 1
+					id: "minecraft:netherite_block"
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "51B7462955596B14"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "44F836A28EEF6EA6"
+			rewards: [{
+				count: 4
+				id: "5AB8A2F689F1A9FC"
+				item: {
+					count: 1
+					id: "minecraft:blaze_powder"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "62CAEB7C05EAA5F3"
+				item: { count: 1, id: "powder_power:motar_pestle" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -3.0d
+		}
+		{
+			id: "63AF1FB84B32C017"
+			rewards: [
+				{
+					count: 2
+					id: "22785879ED7123AE"
+					item: {
+						count: 1
+						id: "minecraft:diamond"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "312C4350AA9C1F8B"
+					item: {
+						count: 1
+						id: "powder_power:powder_obsidian"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "31AD4BD37DC5F675"
+				item: { count: 1, id: "powder_power:hammer_alchemist" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"5BA1310D33F74F47"
+				"555A667D63E59DAB"
+			]
+			id: "121A674B0D0D1878"
+			tasks: [{
+				count: 2L
+				id: "6FAF817A9AD9337A"
+				item: { count: 4, id: "powder_power:blend_redium" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["44F836A28EEF6EA6"]
+			id: "555A667D63E59DAB"
+			tasks: [
+				{
+					count: 4L
+					id: "27624848C1C70527"
+					item: { count: 4, id: "powder_power:powder_redstone" }
+					type: "item"
+				}
+				{
+					id: "401F379D811DC5D4"
+					item: { count: 1, id: "minecraft:blaze_powder" }
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["63AF1FB84B32C017"]
+			id: "5BA1310D33F74F47"
+			tasks: [
+				{
+					count: 2L
+					id: "5720DEBE43883C70"
+					item: { count: 2, id: "powder_power:powder_iron" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "025DD8BE99CC2C72"
+					item: { count: 2, id: "powder_power:powder_obsidian" }
+					type: "item"
+				}
+			]
+			x: -12.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"64BAAD377A93CAAD"
+				"5AEAE776D6C8EA51"
+			]
+			id: "62097C39D4314B31"
+			tasks: [{
+				count: 2L
+				id: "2A46C9B00621905A"
+				item: { count: 4, id: "powder_power:blend_lapium" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"1A77827FBE17C758"
+				"60F5EBC9404AA830"
+			]
+			id: "6BCCB80D484FEEAA"
+			tasks: [{
+				count: 4L
+				id: "3885B9186AD127C5"
+				item: { count: 4, id: "powder_power:blend_gemium" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.0d
+		}
+		{
+			id: "71BCDF7347456311"
+			tasks: [{
+				count: 4L
+				id: "15850E40ABC5A308"
+				item: { count: 1, id: "powder_power:blend_quadrilium" }
+				type: "item"
+			}]
+			x: -14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["63AF1FB84B32C017"]
+			id: "64BAAD377A93CAAD"
+			tasks: [
+				{
+					count: 2L
+					id: "021488E4CE3CA07A"
+					item: { count: 1, id: "powder_power:powder_gold" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "11253144C2FB9DA1"
+					item: { count: 2, id: "powder_power:powder_obsidian" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["44F836A28EEF6EA6"]
+			id: "5AEAE776D6C8EA51"
+			tasks: [
+				{
+					count: 4L
+					id: "4101B99F69D0E110"
+					item: { count: 1, id: "powder_power:powder_lapis" }
+					type: "item"
+				}
+				{
+					id: "3A7DE8A88ED70F21"
+					item: { count: 1, id: "powder_power:powder_nether_quartz" }
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["44F836A28EEF6EA6"]
+			id: "60F5EBC9404AA830"
+			tasks: [
+				{
+					count: 2L
+					id: "43F48AFE577C6E26"
+					item: { count: 1, id: "powder_power:powder_diamond" }
+					type: "item"
+				}
+				{
+					id: "6AC9CCA7A5435A8F"
+					item: { count: 1, id: "powder_power:powder_prismarine" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "3C1B3B4FD412358B"
+					item: { count: 2, id: "powder_power:powder_emerald" }
+					type: "item"
+				}
+			]
+			x: -10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["63AF1FB84B32C017"]
+			id: "1A77827FBE17C758"
+			tasks: [{
+				count: 4L
+				id: "6BECC95351CAF396"
+				item: { count: 2, id: "powder_power:powder_obsidian" }
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"62097C39D4314B31"
+				"121A674B0D0D1878"
+				"6BCCB80D484FEEAA"
+				"28EF8F5FCF34C93C"
+			]
+			id: "7C2FAD74FE7BFD7F"
+			tasks: [{
+				count: 4L
+				id: "6E1F1AC26A413960"
+				item: { count: 1, id: "powder_power:blend_trilium" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["44F836A28EEF6EA6"]
+			id: "28EF8F5FCF34C93C"
+			tasks: [{
+				id: "3AC9480C514AE8D1"
+				item: { count: 1, id: "powder_power:powder_end_pearl" }
+				type: "item"
+			}]
+			x: -11.5d
+			y: -1.5d
+		}
+	]
+}

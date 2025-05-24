@@ -10,7 +10,11 @@
 		id: "ftbquests:custom_icon"
 	}
 	id: "5C3449C5F42C2A48"
+<<<<<<< Updated upstream
 	order_index: 6
+=======
+	order_index: 9
+>>>>>>> Stashed changes
 	quest_links: [ ]
 	quests: [
 		{

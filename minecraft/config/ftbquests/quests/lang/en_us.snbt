@@ -1,11 +1,16 @@
 {
 	chapter.0000000000000004.title: "Just Landed"
-	chapter.0000000000000035.title: "Armor, Tools and Weapons"
+	chapter.0000000000000035.title: "Silent Gear"
 	chapter.000000000000003C.title: "Hunter"
 	chapter.00000000000000AF.title: "Farming and Cooking"
 	chapter.0000000000000623.chapter_subtitle: ["Build amazing things with Create!"]
+<<<<<<< Updated upstream
 	chapter.0000000000000623.title: "Gear Up and Get Going!"
 	chapter.1F3FAEEC631D879D.title: "Andesite Alloy Acquisition"
+=======
+	chapter.0000000000000623.title: "Create"
+	chapter.15AB08505165BF28.title: "Powder Power"
+>>>>>>> Stashed changes
 	chapter.22C5B5C762C6CE6B.title: "Storage"
 	chapter.2B417BFD8A1BF430.title: "Full Steam Ahead!"
 	chapter.394307726599DAF0.title: "Tips and Tricks"
@@ -352,6 +357,7 @@
 	quest.17CA4F1D56A901CC.title: "Cart Blanche"
 	quest.185E6E390C6AC8E3.quest_desc: ["Used to link your P2P tunnels"]
 	quest.18B860855F5B7616.quest_desc: ["I can't stop to refill... I have to keep going .... Well today it your lucky day, because we can provide you with an upgrade that will pull from your backpack."]
+<<<<<<< Updated upstream
 	quest.19124BEFB537CF30.quest_desc: [
 		"Super Glue: the secret sauce for keeping your builds together. "
 		""
@@ -359,6 +365,9 @@
 	]
 	quest.19124BEFB537CF30.quest_subtitle: "Super Glue x1"
 	quest.19124BEFB537CF30.title: "Super Glue Crew"
+=======
+	quest.1A77827FBE17C758.title: "Crush up gemium ingredients"
+>>>>>>> Stashed changes
 	quest.1AB29695173FFFA1.quest_desc: ["These powerful pellets can smelt a half stack of items."]
 	quest.1BBEEF19114688A9.quest_desc: [
 		"Extendo Grip: reach for the stars (or just that faraway block)."
@@ -473,6 +482,7 @@
 	quest.3E218EE721C60CC2.quest_desc: ["When worn, it slowly generates Mana and stores it in a Mana Tablet in the player's inventory. It can be upgraded into the Greater Band of Aura, which generates Mana significantly faster."]
 	quest.415DC4075FB46595.quest_desc: ["Smart Chutes are vertical Chutes with additional controls. The animation when pressing the \"w\" key while hovering shows how to use this new block."]
 	quest.4240DD5A5E1AB2A4.quest_subtitle: "Start Here"
+	quest.44F836A28EEF6EA6.quest_desc: ["Used to turn materials into powder"]
 	quest.468DE93A9D225DA2.quest_desc: ["You are now the foreman with your offical clipboard. Keep notes and copy/paste filter settings."]
 	quest.46EB239376ACBF94.quest_desc: ["Did you know they let pigs operate trains? I thought is was scary when I learned pigs could fly. Well, every train needs one controller."]
 	quest.46EB239376ACBF94.quest_subtitle: "Every piggy needs one"
@@ -516,6 +526,7 @@
 	quest.542DD76032B66B50.quest_desc: ["Important crafting ingredient for many recipes."]
 	quest.5489879D11B3894A.quest_desc: ["To learn more about the Toolbox, open your Create on a Potato PC book to Videos > Create > 0.3.2f update"]
 	quest.55468A5FB8BA4A1F.quest_desc: ["The Pure Daisy is used to make Livingwood and Livingrock. You will make the Pure Daisy in your Petal Apothecary. Do not forget to use a Wood Bowl to fill your Apothecary!"]
+	quest.555A667D63E59DAB.title: "Grind up redium ingredients"
 	quest.55D0F4726A76ACFC.quest_desc: ["The base for all upgrade slot items."]
 	quest.586D540A5DE160AB.quest_desc: ["The Mana Lens by itself does nothing, but is used as the base for other lens."]
 	quest.59DE0D2B5D133849.quest_desc: ["Contraption Controllers: the brains behind every moving marvel."]
@@ -523,6 +534,7 @@
 	quest.59DE0D2B5D133849.title: "Brain in a Box"
 	quest.5AE38D7F1ACE1065.quest_desc: ["For your first flowers, you need the following Mystical Flowers: White, Red, Brown, and Light Grey."]
 	quest.5AE38D7F1ACE1065.title: "Any Botania Mystical Flowers"
+	quest.5AEAE776D6C8EA51.title: "Grind up lapium ingredients"
 	quest.5AF39FF6AB1C6098.quest_desc: [
 		"JEI is an item and recipe viewing mod for Minecraft."
 		"Basic Controls:"
@@ -540,6 +552,7 @@
 		""
 		"Be sure to add fuel!"
 	]
+	quest.5BA1310D33F74F47.title: "Crush up redium ingredients"
 	quest.5C6483EDD2B8F901.quest_desc: ["This can help with your OCD wanting blocks to be symmetrical!"]
 	quest.5C9B90AF57F6BB66.quest_desc: ["Item Vaults: store all the loot your machines make! Vaults are a multiblock storage blocks. Using a Stockpile Switch can show you how full it is."]
 	quest.5C9B90AF57F6BB66.quest_subtitle: "Item Vault x9"
@@ -552,10 +565,13 @@
 	quest.5DBFF42322BE1A6C.quest_subtitle: "Display Link x1"
 	quest.5DBFF42322BE1A6C.title: "Show Off!"
 	quest.60760C5B4FB95DEA.quest_desc: ["The Mana Spreader is the single most important tool a botanist needs to manipulate Mana."]
+	quest.60F5EBC9404AA830.title: "Grind up gemium ingredients"
 	quest.6181C8F6420EB67C.quest_desc: ["Rune of Spring is one of the Seasonal Runes which is the second tier of Botania Runes. This is an important component in creating complex magical devices."]
 	quest.621A194C80FC673F.quest_desc: ["[ \"To many features to list. Check the \", { \"text\": \"guide book\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"3BC70DC86FB889E6\" } }, \" for for more info.\" ]"]
 	quest.621A194C80FC673F.title: "Contruction Wands"
+	quest.63AF1FB84B32C017.quest_desc: ["Use to turn metals and obsidian into powder"]
 	quest.63E0177EA97D97D0.quest_desc: ["Gantry Shafts form the basis of a Gantry setup. An attached Carriage will move along them."]
+	quest.64BAAD377A93CAAD.title: "Crush up lapium ingredients"
 	quest.66EF9A948397E447.quest_desc: ["Using Linings to add traits to your armor"]
 	quest.66EF9A948397E447.title: "Lining Blueprint/Template"
 	quest.678645C952FCF8CC.quest_desc: [
@@ -681,6 +697,7 @@
 	task.48F8C7213DDC26FC.title: "Any #farmersdelight:cabinets"
 	task.51544E360D6B39F0.title: "Visiting the Serene Nether"
 	task.6CC071658A47F899.title: "Xaero's World Map \\& Minimap"
+	task.75C875B211F0B895.title: "Start here"
 	task.778660B5815047F6.title: "Advanced Metals"
 	task.7E5D52384F38AF3D.title: "Copper Ingots"
 	task.7E969B91EB428FB5.title: "Visiting the Finale, The End"
